@@ -16,5 +16,11 @@ namespace Promedio
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form2 pbuscar = new Form2();
+            pbuscar.ShowDialog();
+        }
     }
 }

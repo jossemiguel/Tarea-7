@@ -1,4 +1,6 @@
-﻿using System;
+﻿
+using System;
+using Entidades;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DALL;
 
 namespace Login
 {
@@ -29,6 +32,33 @@ namespace Login
 
         private void Form1_Load(object sender, EventArgs e)
         {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Usuarios user = new Usuarios();
+            Compraventadb com = new Compraventadb();
+
+            user.Nombre = " Chelo";
+            user.Clave = "entrar";
+
+            
+
+            
+
+            
+            
+            
+            
+            
+            
+
+
+
+
+
+            
 
         }
     }
